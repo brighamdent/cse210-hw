@@ -27,7 +27,6 @@ public class Program
         order2.AddProduct(product3);
         order2.AddProduct(product4);
 
-        // Print order details
         Console.WriteLine(order2.GetPackingLabel());
         Console.WriteLine(order2.GetShippingLabel());
         Console.WriteLine($"Total Cost: ${order2.GetTotalCost()}");

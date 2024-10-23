@@ -1,9 +1,10 @@
-using System;
-
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop05 World!");
+        User user = new User();
+        Menu menu = new Menu(user);
+        menu.ShowMenu();
     }
 }
+
